@@ -1,0 +1,56 @@
+
+
+html{ background-color: rgb(230, 230, 171);}
+h1{color: black;
+text-align: center;
+font-family:Arial, Helvetica, sans-serif;}
+
+
+img{width: 1280px;}
+#h{
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    width: 1000px;
+}
+#h td,#h th{
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+#h tr:nth-child(even){
+    background-color: white;
+  
+}
+#h tr:hover{background-color: #736f6e;}
+
+#h th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ddd;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
